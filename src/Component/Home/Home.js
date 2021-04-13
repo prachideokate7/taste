@@ -5,6 +5,7 @@ import f10 from "./images/f10.png";
 import About from "./About"
 import Contact from "./Contact"
 import Location from "./Location";
+import Footer from './Footer/Footer';
 
 function Home() {
     return (
@@ -31,7 +32,7 @@ function Home() {
             </div>
             <div>
                 <Location />
-            </div>
+            </div><Footer />
         </container>
 
     );

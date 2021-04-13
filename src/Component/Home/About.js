@@ -5,7 +5,7 @@ import './About.css'
 function About() {
     return (
         <container>
-            <div>
+            <div id="about-anchor">
                 <img src={f7} alt="" width="100%" height="600rem" className="aboutimg" />
                 <p className="aboutName">About Us</p>
                 <p className="aboutpara">lorem ipsum e:21364) UnhandledPromiseRejectionWarning: Error: Failed to

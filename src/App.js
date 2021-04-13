@@ -6,7 +6,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Navbar from './Component/Home/Navbar';
 import Home from './Component/Home/Home';
-import Footer from './Component/Footer/Footer';
+import Bookings from './Component/Bookings/Bookings';
+import Table from './Component/Bookings/Table';
+import Order from './Component/Bookings/Order';
 class App extends Component {
   render() {
     return (
@@ -16,10 +18,12 @@ class App extends Component {
             <Navbar />
             <Switch>
               <Route path="/" component={Home} exact />
-
+              <Route path="/Bookings" component={Bookings} exact />
+              <Route path="/Table" component={Table} exact />
+              <Route path="/Order" component={Order} exact />
               <Route component={Error} />
             </Switch>
-            <Footer />
+
           </div>
         </BrowserRouter>
 

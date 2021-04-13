@@ -8,46 +8,47 @@ import f12 from './images/f12.png';
 import f11 from './images/f11.png';
 import f15 from './images/f15.png';
 import f17 from './images/f17.png';
+import f19 from './images/f19.png'
 
 function Category() {
     return (
         <container>
             <div className="categorySec">
                 <div className="category">
-                    <img src={f8} alt="" width="20%" height="410em" srcSet="" className="cat" />
-                    <p className="Catname">South<br></br>Indian</p>
+                    <img src={f8} alt="" width="20%" height="410em" className="cat" />
+                    <div className="Catname">South<br></br>Indian</div>
                 </div>
                 <div className="category">
-                    <img src={f13} alt="" width="20%" height="410em" srcSet="" className="cat" />
-                    <p className="Catname">South<br></br>Indian</p>
+                    <img src={f13} alt="" width="20%" height="410em" className="cat" />
+                    <div className="Catname">North<br></br>Indian</div>
                 </div>
                 <div className="category">
-                    <img src={f16} alt="" width="20%" height="410em" srcSet="" className="cat" />
-                    <p className="Catname">South<br></br>Indian</p>
+                    <img src={f16} alt="" width="20%" height="410em" className="cat" />
+                    <div className="Catname">Chienese<br></br>Food</div>
                 </div>
                 <div className="category">
-                    <img src={f17} alt="" width="20%" height="410em" srcSet="" className="cat" />
-                    <p className="Catname">South<br></br>Indian</p>
+                    <img src={f17} alt="" width="20%" height="410em" className="cat" />
+                    <div className="Catname">Marathi<br></br>Food</div>
                 </div>
                 <div className="category">
-                    <img src={f12} alt="" width="20%" height="410em" srcSet="" className="cat" />
-                    <p className="Catname">South<br></br>Indian</p>
+                    <img src={f12} alt="" width="20%" height="410em" className="cat" />
+                    <div className="Catname">Beverage<br></br>& drink</div>
                 </div>
                 <div className="category">
-                    <img src={f11} alt="" width="20%" height="410em" srcSet="" className="cat" />
-                    <p className="Catname">South<br></br>Indian</p>
+                    <img src={f11} alt="" width="20%" height="410em" className="cat" />
+                    <div className="Catname">Dessert<br></br>Sweet</div>
                 </div>
                 <div className="category">
-                    <img src={f15} alt="" width="20%" height="410em" srcSet="" className="cat" />
-                    <p className="Catname">South<br></br>Indian</p>
+                    <img src={f15} alt="" width="20%" height="410em" className="cat" />
+                    <div className="Catname">Street<br></br>Food</div>
                 </div>
                 <div className="category">
-                    <img src={f8} alt="" width="20%" height="410em" srcSet="" className="cat" />
-                    <p className="Catname">South<br></br>Indian</p>
+                    <img src={f19} alt="" width="20%" height="410em" className="cat" />
+                    <div className="Catname">Non-veg<br></br>Food</div>
                 </div>
 
             </div>
-        </container>
+        </container >
     );
 }
 

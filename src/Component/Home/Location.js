@@ -4,7 +4,7 @@ import './Location.css'
 
 function Location() {
     return (
-        <container>
+        <container id="map">
             <div className="mapimg">
                 <img src={f18} alt="" width="100%" height="600rem" />
             </div>
