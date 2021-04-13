@@ -1,0 +1,78 @@
+.contactTitle {
+    position: relative;
+    top: 3rem;
+    margin-left: 22rem;
+    color: black;
+    font-size: 4rem;
+    font-family: 'jamscript';
+}
+
+.address {
+    background-color: white;
+    padding: 3rem 3rem 3rem 3rem;
+    position: relative;
+    color: black;
+    top: 3rem;
+    box-shadow: 20px 20px 30px 15px grey;
+    margin: 0rem 50rem 0rem 8rem;
+    border-radius: 1.2rem;
+    font-size: 1.7rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
+}
+
+.open {
+    background-color: white;
+    padding: 3rem 3rem 3rem 3rem;
+    position: relative;
+    color: black;
+    top: -14rem;
+    box-shadow: 20px 20px 30px 15px grey;
+    margin: -14rem 6rem -16rem 49rem;
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
+}
+
+#addTitle {
+    color: #FFAB00;
+    font-size: 2.5rem;
+    font-family: 'Lobster',
+        cursive;
+}
+
+#addopen {
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    font-family: 'Ubuntu',
+        sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+#addopenpara {
+    font-family: 'Ubuntu',
+        sans-serif;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#infoadd {
+    font-family: 'Ubuntu',
+        sans-serif;
+}
+
+.locationTitle {
+    position: relative;
+    top: -2rem;
+    margin-left: 50rem;
+    color: black;
+    margin-bottom: 0rem;
+    font-size: 5rem;
+    font-family: 'jamscript';
+}

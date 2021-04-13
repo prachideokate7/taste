@@ -1,0 +1,26 @@
+.aboutName {
+    position: relative;
+    color: #FFAB00;
+    margin-left: 55rem;
+    z-index: 4;
+    font-size: 4rem;
+    top: 6rem;
+    font-family: 'jamscript';
+}
+
+.aboutimg {
+    position: absolute;
+}
+
+.aboutpara {
+    position: relative;
+    color: white;
+    z-index: 4;
+    font-size: 1.4rem;
+    top: 2rem;
+    text-align: right;
+    justify-content: center;
+    padding: 3rem 3rem 3rem 30rem;
+    font-family: 'Ubuntu',
+        sans-serif;
+}

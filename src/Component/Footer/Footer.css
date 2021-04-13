@@ -1,0 +1,13 @@
+.foot {
+    background-color: rgb(255, 196, 2);
+    width: 100%;
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.footlogo {
+    z-index: 3;
+    margin-left: 43rem;
+    position: relative;
+    margin-top: -6rem;
+
+}
