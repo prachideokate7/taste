@@ -5,6 +5,9 @@
     color: black;
     font-size: 4rem;
     font-family: 'jamscript';
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .address {
@@ -74,5 +77,16 @@
     color: black;
     margin-bottom: 0rem;
     font-size: 5rem;
+    animation-fill-mode: forwards;
     font-family: 'jamscript';
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

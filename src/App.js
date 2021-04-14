@@ -9,6 +9,7 @@ import Home from './Component/Home/Home';
 import Bookings from './Component/Bookings/Bookings';
 import Table from './Component/Bookings/Table';
 import Order from './Component/Bookings/Order';
+import Menu from './Component/Menu/Menu';
 class App extends Component {
   render() {
     return (
@@ -21,6 +22,7 @@ class App extends Component {
               <Route path="/Bookings" component={Bookings} exact />
               <Route path="/Table" component={Table} exact />
               <Route path="/Order" component={Order} exact />
+              <Route path="/Menu" component={Menu} exact />
               <Route component={Error} />
             </Switch>
 

@@ -13,8 +13,8 @@ function Home() {
             <div >
                 <img src={f10} alt="" width="100%" className="homeimg" />
 
-                <figure className="position-relative">
-                    <div className="head">
+                <figure >
+                    <div >
                         <figCaption>
                             Taste Corner
                         </figCaption>

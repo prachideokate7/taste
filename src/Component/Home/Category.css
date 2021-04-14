@@ -5,7 +5,11 @@
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
+    z-index: 7;
+}
 
+.cat:hover {
+    z-index: 0;
 }
 
 .categorySec {
@@ -15,6 +19,8 @@
     align-items: center;
     align-content: center;
     gap: 3rem;
+    margin-top: -10rem;
+
 }
 
 .category {
@@ -27,9 +33,17 @@
     font-family: 'Train One',
         cursive;
     font-size: 2rem;
-    z-index: 2;
     top: 16rem;
     left: 2rem;
+}
+
+.Catname:hover {
+    z-index: 6;
+    position: relative;
+    color: white;
+    font-family: 'Train One',
+        cursive;
+    font-size: 2rem;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Train+One&display=swap');

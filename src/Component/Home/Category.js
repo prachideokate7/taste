@@ -15,7 +15,7 @@ function Category() {
         <container>
             <div className="categorySec">
                 <div className="category">
-                    <img src={f8} alt="" width="20%" height="410em" className="cat" />
+                    <div><img src={f8} alt="" width="20%" height="410em" className="cat" /></div>
                     <div className="Catname">South<br></br>Indian</div>
                 </div>
                 <div className="category">
@@ -24,7 +24,7 @@ function Category() {
                 </div>
                 <div className="category">
                     <img src={f16} alt="" width="20%" height="410em" className="cat" />
-                    <div className="Catname">Chienese<br></br>Food</div>
+                    <div className="Catname">Chinese<br></br>Food</div>
                 </div>
                 <div className="category">
                     <img src={f17} alt="" width="20%" height="410em" className="cat" />
