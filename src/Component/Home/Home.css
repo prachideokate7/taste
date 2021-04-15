@@ -17,3 +17,12 @@ figCaption {
     margin: 0%;
     padding: 0%;
 }
+@media only screen and (max-device-width: 480px) {
+.homeimg {
+  height: 35rem;
+  width: 70rem;
+  top: 9rem;
+  background-size: cover;
+  margin-top: 3rem;
+}
+}

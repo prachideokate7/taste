@@ -90,3 +90,59 @@
         opacity: 1;
     }
 }
+@media only screen and (max-device-width: 480px) {
+  .contactTitle {
+      position: relative;
+      top: -15rem;
+      margin-left: 22rem;
+      color: black;
+      font-size: 4rem;
+      font-family: 'jamscript';
+      animation: fadeInAnimation ease 3s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+  }
+
+  .address {
+      background-color: white;
+display: block;
+width: 50rem;
+      position: relative;
+      color: black;
+      top: -15rem;
+      box-shadow: 20px 20px 30px 15px grey;
+      margin: 0rem 50rem 0rem 8rem;
+      border-radius: 1.2rem;
+      font-size: 1.7rem;
+      -webkit-border-radius: 1.2rem;
+      -moz-border-radius: 1.2rem;
+      -ms-border-radius: 1.2rem;
+      -o-border-radius: 1.2rem;
+  }
+  .open {
+      background-color: white;
+      width: 40rem;
+      display: block;
+      padding: 3rem 3rem 3rem 3rem;
+      position: relative;
+      color: black;
+      top: 5rem;
+      box-shadow: 20px 20px 30px 15px grey;
+      margin: -14rem 6rem -16rem 18rem;
+      border-radius: 1.2rem;
+      -webkit-border-radius: 1.2rem;
+      -moz-border-radius: 1.2rem;
+      -ms-border-radius: 1.2rem;
+      -o-border-radius: 1.2rem;
+  }
+  .locationTitle {
+      position: relative;
+      top: 20rem;
+      margin-left: 5rem;
+      color: black;
+      margin-bottom: 0rem;
+      font-size: 5rem;
+      animation-fill-mode: forwards;
+      font-family: 'jamscript';
+  }
+}
