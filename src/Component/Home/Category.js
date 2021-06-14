@@ -44,7 +44,7 @@ function Category() {
                 </div>
                 <div className="category">
                     <img src={f19} alt="" width="20%" height="410em" className="cat" />
-                    <div className="Catname">Non-veg<br></br>Food</div>
+                    <div className="Catname">Non-veg</div>
                 </div>
 
             </div>
