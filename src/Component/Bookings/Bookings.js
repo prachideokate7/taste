@@ -1,19 +1,23 @@
 import React from "react";
-import f8 from './images/f8.png'
-
-import { NavLink } from 'react-router-dom';
+import "./bookings.css";
+import place from "./images/f18.png";
+import grab from "./images/f19.png";
+import { Link } from 'react-router-dom';
 
 function Bookings() {
     return (
-        <container>
-            <div>
-                <NavLink to="/Table" ><img src={f8} alt="" width="20%" height="410em" /></NavLink>
-            </div>
-            <div>
-                <NavLink to="/Order" ><img src={f8} alt="" width="20%" height="410em" /></NavLink>
-            </div>
 
-        </container>);
+        <div class="container">
+            <img className="table" src={grab} alt="grab" />
+            <Link to="/Table">
+                <button className="btn">Reserve your table!</button>
+            </Link>
+            <img className="table" src={place} alt="grab" />
+            <Link to="/Order">
+                <button className="btnn">PLACE YOUR ORDER!</button>
+            </Link>
+        </div>
+    );
 }
 
 export default Bookings;
